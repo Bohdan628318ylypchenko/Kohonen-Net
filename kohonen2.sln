@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kohonen-net", "kohonen-net\kohonen-net.csproj", "{CEDF2843-57DB-4AF8-A9E3-E196933866DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playground", "playground\playground.csproj", "{741FE497-FE0C-42C1-A574-0E93D685DBE2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDF2843-57DB-4AF8-A9E3-E196933866DB}.Debug|x64.ActiveCfg = Debug|x64
+		{CEDF2843-57DB-4AF8-A9E3-E196933866DB}.Debug|x64.Build.0 = Debug|x64
+		{CEDF2843-57DB-4AF8-A9E3-E196933866DB}.Release|x64.ActiveCfg = Release|x64
+		{CEDF2843-57DB-4AF8-A9E3-E196933866DB}.Release|x64.Build.0 = Release|x64
+		{741FE497-FE0C-42C1-A574-0E93D685DBE2}.Debug|x64.ActiveCfg = Debug|x64
+		{741FE497-FE0C-42C1-A574-0E93D685DBE2}.Debug|x64.Build.0 = Debug|x64
+		{741FE497-FE0C-42C1-A574-0E93D685DBE2}.Release|x64.ActiveCfg = Release|x64
+		{741FE497-FE0C-42C1-A574-0E93D685DBE2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
